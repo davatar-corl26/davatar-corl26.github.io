@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DAVATaR — Depth-Aware Visually Augmented Tactile Learning</title>
+<title>DAVATaR — Depth-Aware Visually Augmented Tactile Learning Across the Air-Water Interface</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -71,11 +71,11 @@
   header .eyebrow{ margin-bottom:24px; }
   h1.title{
     font-weight:800;
-    font-size:clamp(34px, 5vw, 58px);
+    font-size:clamp(32px, 4.6vw, 52px);
     line-height:1.08;
     letter-spacing:-0.025em;
     color:var(--ink);
-    max-width:18ch;
+    max-width:28ch;
     margin:0 auto;
   }
   h1.title .acc{ color:var(--accent); }
@@ -198,6 +198,13 @@
     .chart-grid{ grid-template-columns:1fr; }
     .chart-grid .full{ grid-column:auto; }
   }
+
+  @media (min-width:980px){
+    h1.title{
+      font-size:clamp(28px, 3.3vw, 40px);
+      max-width:980px;
+    }
+  }
 </style>
 </head>
 <body>
@@ -213,7 +220,7 @@
   <!-- ============ HERO ============ -->
   <header>
     <div class="wrap">
-      <h1 class="title"><span class="acc">DAVATaR</span>: Depth-Aware Visually Augmented Tactile Learning</h1>
+      <h1 class="title"><span class="acc">DAVATaR</span>: Depth-Aware Visually Augmented Tactile Learning Across the Air-Water Interface</h1>
       <div class="authors">Anonymous</div>
       <div class="links">
         <a class="btn" href="assets/CoRL_2026_DAVATaR.pdf" target="_blank" rel="noopener">
